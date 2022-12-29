@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Karar Ve Döngü Yapıları</string>
+    <string name="uygulama1">Uygulama 1 (if yapısı)</string>
+    <string name="uygulama2">Uygulama 2 (Karşılaştırma)</string>
+    <string name="uygulama3">Uygulama 3 (if-else yapısı)</string>
+    <string name="uygulama4">Uygulama 4 (Konum Servisleri)</string>
+    <string name="uygulama5">Uygulama 5 (Not Kontrolü)</string>
+    <string name="uygulama6">Uygulama 6 (Switch-Case)</string>
+    <string name="uygulama7">Uygulama 7 (For Döngüsü)</string>
+    <string name="uygulama8">Uygulama 8 ()</string>
+    <string name="uygulama9">Uygulama 9 ()</string>
+    <string name="uygulama10">Uygulama 10 ()</string>
+    <string name="uyg1click">Uygula</string>
+    <string name="uyg1hint">Sayı Giriniz..</string>
+    <string name="uyg2xgirin">X i Giriniz..</string>
+    <string name="uyg2ygirin">Y yi Giriniz..</string>
+    <string name="uyg2Hesaplabtn">Hesapla</string>
+    <string name="uyg3kadi">Kullanıcı Adını giriniz..</string>
+    <string name="uyg3sifre">Şifrenizi giriniz..</string>
+    <string name="uyg3giris">Giriş Yap</string>
+    <string name="konum_servisleri">Konum Servisleri</string>
+    <string name="konum_bilgilerini_g_nder">Konum bilgilerini gönder</string>
+    <string name="konum_bilgilerini_al">Konum Bilgilerini al</string>
+    <string name="konum_kaydet">Kaydet</string>
+    <string name="uyg5_onayla">Onayla</string>
+    <string name="uyg5_not1">1. Notu giriniz.</string>
+    <string name="uyg5_not2">2. Notu giriniz.</string>
+    <string name="uyg5_not3">3. Notu giriniz.</string>
+    <string name="textview">TextView</string>
+    <string name="l_tfen_ay_giriniz_say_cinsinden">Lütfen ay giriniz (sayı cinsinden)</string>
+    <string name="onayla">Onayla</string>
+    <string name="d_nder">Dönder</string>
+    <string name="sayigiriniz">Sayı Girişi Yapın..</string>
+    <string name="uygula">uygula</string>
+</resources>

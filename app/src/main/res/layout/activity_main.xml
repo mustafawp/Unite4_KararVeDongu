@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnUyg8"
+        android:layout_width="256dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:onClick="btnUyg8"
+        android:text="@string/uygulama8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.682" />
+
+    <Button
+        android:id="@+id/btnUyg9"
+        android:layout_width="254dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:onClick="btnUyg9"
+        android:text="@string/uygulama9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.779" />
+
+    <Button
+        android:id="@+id/btnUyg10"
+        android:layout_width="252dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="20dp"
+        android:onClick="btnUyg10"
+        android:text="@string/uygulama10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.873" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="217dp"
+        android:layout_height="31dp"
+        android:text="@string/app_name"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.038" />
+
+    <Button
+        android:id="@+id/btnUyg1"
+        android:layout_width="263dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:onClick="btnUyg1"
+        android:text="@string/uygulama1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnUyg2"
+        android:layout_width="262dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="20dp"
+        android:onClick="btnUyg2"
+        android:text="@string/uygulama2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.098" />
+
+    <Button
+        android:id="@+id/btnUyg3"
+        android:layout_width="264dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:onClick="btnUyg3"
+        android:text="@string/uygulama3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.194" />
+
+    <Button
+        android:id="@+id/btnUyg4"
+        android:layout_width="266dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:onClick="btnUyg4"
+        android:text="@string/uygulama4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.289" />
+
+    <Button
+        android:id="@+id/btnUyg5"
+        android:layout_width="264dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="20dp"
+        android:onClick="btnUyg5"
+        android:text="@string/uygulama5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.381" />
+
+    <Button
+        android:id="@+id/btnUyg6"
+        android:layout_width="259dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="20dp"
+        android:onClick="btnUyg6"
+        android:text="@string/uygulama6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.478" />
+
+    <Button
+        android:id="@+id/btnUyg7"
+        android:layout_width="257dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="20dp"
+        android:onClick="btnUyg7"
+        android:text="@string/uygulama7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.583" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
