@@ -6,48 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/btnUyg8"
-        android:layout_width="256dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="20dp"
-        android:onClick="btnUyg8"
-        android:text="@string/uygulama8"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.51"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.682" />
-
-    <Button
-        android:id="@+id/btnUyg9"
-        android:layout_width="254dp"
-        android:layout_height="52dp"
-        android:layout_marginTop="20dp"
-        android:onClick="btnUyg9"
-        android:text="@string/uygulama9"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.51"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.779" />
-
-    <Button
-        android:id="@+id/btnUyg10"
-        android:layout_width="252dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="20dp"
-        android:onClick="btnUyg10"
-        android:text="@string/uygulama10"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.51"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.873" />
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="217dp"
@@ -57,9 +15,10 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.038" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/btnUyg1"
@@ -75,6 +34,104 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
+        android:id="@+id/btnUyg4"
+        android:layout_width="242dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="20dp"
+        android:onClick="btnUyg4"
+        android:text="@string/uygulama4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.241" />
+
+    <Button
+        android:id="@+id/btnUyg8"
+        android:layout_width="220dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="20dp"
+        android:onClick="btnUyg8"
+        android:text="@string/uygulama8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.615" />
+
+    <Button
+        android:id="@+id/btnUyg10"
+        android:layout_width="228dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="20dp"
+        android:onClick="btnUyg10"
+        android:text="@string/uygulama10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.806" />
+
+    <Button
+        android:id="@+id/btnUyg7"
+        android:layout_width="234dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="20dp"
+        android:onClick="btnUyg7"
+        android:text="@string/uygulama7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.514" />
+
+    <Button
+        android:id="@+id/btnUyg5"
+        android:layout_width="230dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="20dp"
+        android:onClick="btnUyg5"
+        android:text="@string/uygulama5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.546"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.323" />
+
+    <Button
+        android:id="@+id/btnUyg6"
+        android:layout_width="237dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="20dp"
+        android:onClick="btnUyg6"
+        android:text="@string/uygulama6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.407" />
+
+    <Button
+        android:id="@+id/btnUyg9"
+        android:layout_width="226dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="20dp"
+        android:onClick="btnUyg9"
+        android:text="@string/uygulama9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.711" />
+
+    <Button
         android:id="@+id/btnUyg2"
         android:layout_width="262dp"
         android:layout_height="53dp"
@@ -83,10 +140,10 @@
         android:text="@string/uygulama2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.098" />
+        app:layout_constraintVertical_bias="0.083" />
 
     <Button
         android:id="@+id/btnUyg3"
@@ -97,64 +154,48 @@
         android:text="@string/uygulama3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintHorizontal_bias="0.537"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.194" />
+        app:layout_constraintVertical_bias="0.166" />
 
     <Button
-        android:id="@+id/btnUyg4"
-        android:layout_width="266dp"
-        android:layout_height="52dp"
-        android:layout_marginTop="20dp"
-        android:onClick="btnUyg4"
-        android:text="@string/uygulama4"
+        android:id="@+id/GbtnAltin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnAltin"
+        android:text="Altın Soru 1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintHorizontal_bias="0.107"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.289" />
+        app:layout_constraintTop_toBottomOf="@+id/btnUyg10"
+        app:layout_constraintVertical_bias="0.25" />
 
     <Button
-        android:id="@+id/btnUyg5"
-        android:layout_width="264dp"
-        android:layout_height="51dp"
-        android:layout_marginTop="20dp"
-        android:onClick="btnUyg5"
-        android:text="@string/uygulama5"
+        android:id="@+id/gbtnAltin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="asd"
+        android:text="Altın Soru 2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintHorizontal_bias="0.872"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.381" />
+        app:layout_constraintTop_toBottomOf="@+id/btnUyg10"
+        app:layout_constraintVertical_bias="0.25" />
 
     <Button
-        android:id="@+id/btnUyg6"
-        android:layout_width="259dp"
-        android:layout_height="54dp"
-        android:layout_marginTop="20dp"
-        android:onClick="btnUyg6"
-        android:text="@string/uygulama6"
+        android:id="@+id/gbtnAltin2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="asd3"
+        android:text="Altın Soru 3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.478" />
-
-    <Button
-        android:id="@+id/btnUyg7"
-        android:layout_width="257dp"
-        android:layout_height="54dp"
-        android:layout_marginTop="20dp"
-        android:onClick="btnUyg7"
-        android:text="@string/uygulama7"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.51"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.583" />
+        app:layout_constraintTop_toBottomOf="@+id/btnUyg10"
+        app:layout_constraintVertical_bias="0.881" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

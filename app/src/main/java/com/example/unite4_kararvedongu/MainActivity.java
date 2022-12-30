@@ -66,4 +66,19 @@ public class MainActivity extends AppCompatActivity {
         Intent uyg10 = new Intent(MainActivity.this,Uyg10Activity.class);
         startActivity(uyg10);
     }
+    public void btnAltin(View view)
+    {
+        Intent altin = new Intent(MainActivity.this,GoldSoru1.class);
+        startActivity(altin);
+    }
+    public void asd(View view)
+    {
+        Intent altin2 = new Intent(MainActivity.this,GoldSoru2.class);
+        startActivity(altin2);
+    }
+    public void asd3(View view)
+    {
+        Intent altin2 = new Intent(MainActivity.this,GoldSoru3.class);
+        startActivity(altin2);
+    }
 }
